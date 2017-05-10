@@ -56,7 +56,7 @@ class Dataset:
                 urllib.urlretrieve(self.data[key][url_key], os.path.join(path,key))
 
 if __name__ == "__main__":
-
+    # EX:  ./data_format.py -csv AJL_LFW_Annotations.csv -index_key Input.photo_stage1 -attributes Input.image_url guess.ethnicity -root_dir /Users/gen/neml_hackathon/data -url_key Input.image_url -folder_attr guess.ethnicity
     parser = argparse.ArgumentParser()
     parser.add_argument("-csv", help="csv file", type=str)
     parser.add_argument("-index_key", help="", type=str)
