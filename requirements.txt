@@ -1,0 +1,10 @@
+appdirs==1.4.3
+numpy==1.12.1
+olefile==0.44
+packaging==16.8
+Pillow==4.1.1
+pyparsing==2.2.0
+PyYAML==3.12
+six==1.10.0
+torch==0.1.12.post2
+torchvision==0.1.8
